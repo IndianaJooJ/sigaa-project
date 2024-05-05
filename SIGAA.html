@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGAA</title>
+    <title>SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</title>
     <link rel="stylesheet" href="CSS/Sigaa.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXMO15iAnycPZtc2RHfIZwVIkdGaFiiG5D44vfYjmUWg&s">
 </head>
 <body>
 
@@ -14,7 +15,6 @@
             <p>Sistema Integrado de Gestão de Atividades Acadêmicas</p>
         </div>
 
-        <div class="espaco-topo"></div>
     </header>
 
     <main>
@@ -23,14 +23,16 @@
             <p>O seu login é o seu CPF e sua senha é a mesma cadastrada na <a href="">Identificação única.</a></p>
             <p>O sistema diferencia letras maiúsculas de minúsculas na senha.</p>
         </div>
-
-        <div class="content-bg">
+        <div class="content-bg"> 
             <div class="content">
                 <div class="si-container">
                     <div class="botoes">
                         <button class="si-open">
-                            <h2>Sigaa</h2>
-                            <p>(Acadêmico)</p>
+                            <div>
+
+                                <h2>Sigaa</h2>
+                                <p>(Acadêmico)</p>
+                            </div>
                         <button class="si">
                             <h2>Sipac</h2>
                             <p>(Administrativo)</p>
@@ -44,67 +46,44 @@
                             <h2 class="si-especiais">SIGEleição</h2>
                             <p>(controle de Processos Eleitorais)</p>
                     </button>
-                <div class="header-login-effect">
-                    <div class="header-login">
-                        <h3>Entrar no sistema</h3>
-                    </div>
-                    <div class="triangulo"></div>
                 </div>
                 <div class="login">
+                        <div class="header-login">
+                            <h3>Entrar no sistema</h3>
+                        </div>
                     <table class="table">
                         <tbody>
                             <tr>
-                                <th>Usuário:</th>
                                 <td>
-                                    <input type="text">
+                                    <input type="text" placeholder="Digite o seu CPF">
                                 </td>
                             </tr>
                             <tr>
-                                <th>Senha:</th>
                                 <td>
-                                    <input type="text">
+                                    <input type="text" placeholder="Digite a sua senha">
                                 </td>
                             </tr>
+                            <tr></tr>
                         </tbody>
                     </table>
                     <button class="entrar">Entrar</button>
                 </div>
-            </div>
-            <div class="alternativas-login">
-                <table>
-                    <tr>
-                        <td>
-                            <p>
-                                Caso ainda não possua cadastro no sistema,
-                                clique no link abaixo:
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Caso tenha esquecido a senha,
-                                clique no link abaixo:
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Familiares, caso ainda não possuam cadastro no SIGAA,
-                                clique no link abaixo:
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                                <a href=""> Cadastre-se &#128221;</a>
-                            </div>
-                        </td>
-                        <td>
-                            <a href=""> Esqueci minha senha &#128272;</a>
-                        </td>
-                        <td>
-                            <a href=""> Cadastro de familiar &#128104;&#8205;&#128104;&#8205;&#128102;</a>
-                        </td>
-                    </tr>
-                </table>
+                <div class="alternativas-login">
+                    <table>
+                        <tr>
+                            <td>
+                                    <button> Cadastre-se</button>
+                                </div>
+                            </td>
+                            <td>
+                                <button> Esqueci minha senha</button>
+                            </td>
+                            <td>
+                                <button> Cadastro de familiar</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="texto-firefox">
                 <img src="https://cdn-icons-png.flaticon.com/256/5968/5968827.png" alt="Logo firefox">
@@ -116,13 +95,13 @@
             </div>
         </div>
     </main>
-
-    <footer>
-        <div class="footer">
-            <p>
-                SIGAA | Diretoria de Tecnologia da Informação - DTI - (31) 3319-7000 | Copyright © 2006-2024 - UFRN - vm-sig-app-07.ditic.sgi.cefetmg.br.inst7 - v4.8.22cefet143
-            </p>
-        </div>
-    </footer>
 </body>
+<footer>
+    <div class="footer">
+        <p>
+            SIGAA | Diretoria de Tecnologia da Informação - DTI - (31) 3319-7000 | Copyright © 2006-2024 - UFRN - vm-sig-app-07.ditic.sgi.cefetmg.br.inst7 - v4.8.22cefet143
+        </p>
+    </div>
+    <div class="espaco-topo"></div>
+</footer>
 </html>
